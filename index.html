@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Enterprises | Launching Soon</title>
+    <meta name="description" content="Samarth Enterprises — rooted in nature, crafted with care. Something pure is growing. Launching soon.">
+    <meta name="theme-color" content="#fbf3d5">
+    <link rel="icon" type="image/png" href="assets/samarthlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ambient background -->
+    <div class="bg" aria-hidden="true">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grain"></div>
+        <div class="leaves" id="leaves"></div>
+    </div>
+
+    <main class="wrap">
+        <header class="logo-wrap reveal">
+            <img src="assets/samarthlogo.png" alt="Samarth Enterprises" class="logo">
+        </header>
+
+        <section class="hero">
+            <p class="eyebrow reveal"><span class="dot"></span> Something pure is growing</p>
+            <h1 class="title reveal">
+                Launching <em>Soon</em>
+            </h1>
+            <p class="subtitle reveal">
+                Rooted in nature, crafted with care. We're preparing something
+                special for you &mdash; stay close, the wait is almost over.
+            </p>
+
+            <div class="countdown reveal" id="countdown" aria-live="polite">
+                <div class="unit"><span class="num" id="d">00</span><span class="label">Days</span></div>
+                <span class="sep">:</span>
+                <div class="unit"><span class="num" id="h">00</span><span class="label">Hours</span></div>
+                <span class="sep">:</span>
+                <div class="unit"><span class="num" id="m">00</span><span class="label">Minutes</span></div>
+                <span class="sep">:</span>
+                <div class="unit"><span class="num" id="s">00</span><span class="label">Seconds</span></div>
+            </div>
+        </section>
+
+        <footer class="footer reveal">
+            <div class="divider"><span></span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 21c0-6 0-10 7-16-1 8-3 12-7 16zm0 0C12 15 12 11 5 5c1 8 3 12 7 16z" fill="currentColor"/></svg><span></span></div>
+            <div class="socials">
+                <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor"/></svg></a>
+                <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v6h4v-6h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z" fill="currentColor"/></svg></a>
+                <a href="mailto:info@samarthenterprises.com" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 6.5 12 13l8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
+            </div>
+            <p class="copy">&copy; <span id="year"></span> Samarth Enterprises. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <!-- WhatsApp floating button (bottom-right) -->
+    <a class="whatsapp" id="whatsapp" href="#" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+        <span class="wa-tooltip">Chat with us</span>
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.54 1.74 6.52L3 29l6.65-1.74A12.95 12.95 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3zm0 23.7c-1.95 0-3.86-.52-5.53-1.52l-.4-.24-3.95 1.03 1.05-3.85-.26-.4A10.66 10.66 0 0 1 5.33 16c0-5.9 4.8-10.7 10.71-10.7 5.9 0 10.66 4.8 10.66 10.7 0 5.9-4.77 10.7-10.66 10.7zm5.87-8.01c-.32-.16-1.9-.94-2.2-1.04-.29-.11-.5-.16-.72.16-.21.32-.83 1.04-1.01 1.25-.19.21-.37.24-.7.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.9-1.79-2.22-.19-.32-.02-.5.14-.66.15-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.47 4.84.77.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37z"/>
+        </svg>
+    </a>
+
+    <script>
+        // ===== Settings — edit these =====
+        const LAUNCH_DATE = new Date('2026-11-02T10:00:00+05:30');   // launch date & time (IST) — 20 days from 13 Oct 2026
+        const WHATSAPP_NUMBER = '919999999999';                      // country code + number, no "+" or spaces
+        const WHATSAPP_MESSAGE = 'Hello Samarth Enterprises! I would like to know more about your launch.';
+        // =================================
+
+        document.getElementById('whatsapp').href =
+            `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Countdown
+        const pad = n => String(n).padStart(2, '0');
+        const els = {};
+        ['d', 'h', 'm', 's'].forEach(id => els[id] = document.getElementById(id));
+        function tick() {
+            let diff = Math.max(0, LAUNCH_DATE - Date.now());
+            const days = Math.floor(diff / 864e5); diff -= days * 864e5;
+            const hrs  = Math.floor(diff / 36e5);  diff -= hrs * 36e5;
+            const mins = Math.floor(diff / 6e4);   diff -= mins * 6e4;
+            const secs = Math.floor(diff / 1e3);
+            const vals = { d: days, h: hrs, m: mins, s: secs };
+            for (const k in vals) {
+                const v = pad(vals[k]);
+                if (els[k].textContent !== v) {
+                    els[k].textContent = v;
+                    els[k].classList.remove('flip'); void els[k].offsetWidth; els[k].classList.add('flip');
+                }
+            }
+        }
+        tick(); setInterval(tick, 1000);
+
+        // Floating leaves
+        const leafBox = document.getElementById('leaves');
+        const leafSvg = '<svg viewBox="0 0 24 24"><path d="M5 19C5 10 11 4 20 4c0 9-6 15-15 15zm0 0 9-9" fill="currentColor" stroke="rgba(255,255,255,.4)" stroke-width="1"/></svg>';
+        const count = window.innerWidth < 600 ? 10 : 18;
+        for (let i = 0; i < count; i++) {
+            const l = document.createElement('span');
+            l.className = 'leaf';
+            l.innerHTML = leafSvg;
+            const size = 10 + Math.random() * 18;
+            l.style.cssText = `left:${Math.random() * 100}%;width:${size}px;height:${size}px;` +
+                `animation-duration:${14 + Math.random() * 16}s;animation-delay:${-Math.random() * 30}s;` +
+                `opacity:${0.15 + Math.random() * 0.35};--drift:${(Math.random() - 0.5) * 200}px`;
+            leafBox.appendChild(l);
+        }
+    </script>
+</body>
+</html>
